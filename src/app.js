@@ -3,7 +3,7 @@ import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
 
-import indexRoutes from "./routes";
+import iechoRoutes from "./routes/iechoRoutes";
 
 // Initializations
 const app = express();
@@ -13,16 +13,17 @@ app.set('port', process.env.PORT || 3001);
 app.set("json spaces", 2);
 
 // Middlewares
-const corsOptions = {
-  origin: "http://localhost:3000",
-};
-app.use(cors(corsOptions));
+// const corsOptions = {
+//   origin: "http://localhost:3000",
+// };
+// app.use(cors(corsOptions));
+app.use(cors());
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 
 // Routes
-app.use('/api', indexRoutes);
+app.use('/api', iechoRoutes);
 
 export default app;

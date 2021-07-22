@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start2": "node build/index.js",
     "dev": "nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir build",
+    "start2": "node build/index.js",
     "test": "standard && node my-tests.js",
     "start": "webpack --watch --config webpack.config.js"
   },

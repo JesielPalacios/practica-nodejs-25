@@ -13,9 +13,9 @@ module.exports = {
     },
 
     output: {
-        path: '/',
-        filename: 'bundle.js'
-      },
+        path: path.resolve(__dirname, 'build'),
+        filename: 'bundle.js',
+    },
 
     externals: [nodeExternals()],
 

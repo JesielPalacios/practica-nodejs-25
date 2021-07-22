@@ -4,6 +4,6 @@ import * as textController from "../controllers/textController";
 const router = Router();
 
 router.route('/iecho')
-  .get(textController.sendReverseText)
+  .get(textController.sendReverseText);
 
-export default iechoRoutes;
+export default router;
