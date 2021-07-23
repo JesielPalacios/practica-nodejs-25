@@ -12,7 +12,7 @@ For install all dependencies and dev dependencies includes in the project.
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+Open [http://localhost:3001/api/iecho?text=anything](http://localhost:3001/api/iecho?text=anything) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -31,5 +31,5 @@ Your app is ready to be deployed!
 
 ### `npm run eject`
 
-**Note: the only one endpoitn avaliaible is found in `[http://localhost:3001/api/iecho?text=anything](http://localhost:3001/api/iecho?text=anything)`, answer with the reverse order of all the strings from de chain characters.**
+**Note: the only one endpoitn avaliaible is found in `host/api/iecho?text=anything`, answer with the reverse order of all the strings from de chain characters.**
 
