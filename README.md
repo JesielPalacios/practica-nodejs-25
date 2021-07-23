@@ -1,6 +1,6 @@
 # Getting Started with prueba-tecnica-golky
 
-This project was bootstrapped with [Node.js on Express.js Framework!](https://github.com/JesielPalacios/prueba-tecnica-golky).
+The following is a Restful API made in NodeJS with Express.js that has an en Point of type get in which a string parameter is sent and the Api responds with this same parameter but in reverse, it also adds a flag through the http response indicating if I text is palindrome.
 
 ## Available Scripts
 
