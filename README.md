@@ -2,6 +2,8 @@
 
 The following is a Restful API made in NodeJS with Express.js that has an en Point of type get in which a string parameter is sent and the Api responds with this same parameter but in reverse, it also adds a flag through the http response indicating if I text is palindrome.
 
+La siguiente es una API Restful hecha en NodeJS con Express.js que tiene un en Point de tipo get en el cual se le envía un parámetro de cadena y la Api responde con este mismo parámetro pero en reverso además añade una bandera por medio de la respuesta http indicando si yo texto es palíndromo.
+
 ## Available Scripts
 
 ### `npm i`
