@@ -14,7 +14,7 @@ For install all dependencies and dev dependencies includes in the project.
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001/api/iecho?text=anything](http://localhost:3001/api/iecho?text=anything) to view it in the browser.
+Open [https://83je6.sse.codesandbox.io/api/iecho?text=test](https://83je6.sse.codesandbox.io/api/iecho?text=test) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
