@@ -1,13 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with prueba-tecnica-golky
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Node.js on Express.js Framework!](https://github.com/JesielPalacios/prueba-tecnica-golky/edit/main/README.md).
 
 ## Available Scripts
 
+### `npm i`
 
-
-npm i express mysql cors
-npm i nodemon -D
+In the project directory, you can run:
+For install all dependencies and dev dependencies includes in the project.
 
 In the project directory, you can run:
 
