@@ -1,6 +1,6 @@
 # Getting Started with prueba-tecnica-golky
 
-This project was bootstrapped with [Node.js on Express.js Framework!](https://github.com/JesielPalacios/prueba-tecnica-golky/edit/main/README.md).
+This project was bootstrapped with [Node.js on Express.js Framework!](https://github.com/JesielPalacios/prueba-tecnica-golky).
 
 ## Available Scripts
 
