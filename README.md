@@ -18,6 +18,10 @@ Open [https://83je6.sse.codesandbox.io/api/iecho?text=test](https://83je6.sse.co
 
 ![image](https://user-images.githubusercontent.com/50146090/126826943-ba2b9eaa-b3e6-4735-a41c-a37e76ead279.png)
 
+When's palindrome:
+
+![image](https://user-images.githubusercontent.com/50146090/126827044-fe6a3924-61e8-4f0e-a602-0ad928225ced.png)
+
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
