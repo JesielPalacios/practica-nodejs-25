@@ -9,12 +9,12 @@ import iechoRoutes from "./routes/iechoRoutes";
 const app = express();
 
 // Settings
-app.set('port', process.env.PORT || 3001);
+app.set("port", process.env.PORT || 3001);
 app.set("json spaces", 2);
 
 // Middlewares
 // const corsOptions = {
-//   origin: "http://localhost:3000",
+//   origin: "http://190.217.101.219"
 // };
 // app.use(cors(corsOptions));
 app.use(cors());
@@ -24,6 +24,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
-app.use('/api', iechoRoutes);
+app.use("/api", iechoRoutes);
 
 export default app;
